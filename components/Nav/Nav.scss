@@ -1,0 +1,21 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.2em 7.5em 0;
+  a {
+    text-decoration: none;
+    &:not(:last-child) {
+      margin-right: 1.9em;
+    }
+  }
+  nav {
+    display: flex;
+  }
+
+  &__left-links {
+  }
+
+  &__right-links {
+  }
+}

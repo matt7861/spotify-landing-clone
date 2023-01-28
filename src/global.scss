@@ -1,0 +1,8 @@
+body {
+  font-family: "Rota";
+}
+
+@function vw($px) {
+  @return calc($px / 1920) * 100+0vw;
+  //@return ($px / 2560) * 100 + 0vw;
+}

@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Rota";
+  src: url("./assets/fonts/Rota-Medium.eot");
+  src: url("./assets/fonts/Rota-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Rota-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Rota-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rota";
+  src: url("./assets/fonts/Rota-Bold.eot");
+  src: url("./assets/fonts/Rota-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Rota-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Rota-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rota";
+  src: url("./assets/fonts/Rota-Regular.eot");
+  src: url("./assets/fonts/Rota-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Rota-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Rota-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rota";
+  src: url("./assets/fonts/Rota-Black.eot");
+  src: url("./assets/fonts/Rota-Black.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Rota-Black.woff2") format("woff2"),
+    url("./assets/fonts/Rota-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 75px;
+  letter-spacing: 0.02em;
+  @include breakpoint(up, lg) {
+    font-size: vw(72);
+    line-height: vw(75);
+  }
+  @include breakpoint(up, xxl) {
+    font-size: 72px;
+    line-height: 75px;
+  }
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  @include breakpoint(up, lg) {
+    font-size: vw(32);
+    line-height: vw(40);
+  }
+  @include breakpoint(up, xxl) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  @include breakpoint(up, lg) {
+    font-size: vw(24);
+    line-height: vw(30);
+  }
+  @include breakpoint(up, xxl) {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.button {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.site-header a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  @include breakpoint(up, lg) {
+    font-size: vw(24);
+    line-height: vw(30);
+  }
+  @include breakpoint(up, xxl) {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
